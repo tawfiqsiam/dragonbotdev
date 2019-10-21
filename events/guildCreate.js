@@ -4,7 +4,7 @@ exports.run = async (bot, guild) => {
   const invite = await guild.channels.find(c => c.type !== "category" && c.position === 0).createInvite({
         maxAge: 0
     });
-    let guildCreateChannel = bot.channels.get('494785643096965162');
+    let guildCreateChannel = bot.channels.get('633401589931180072');
    // guild.createChannel("bot-logs", "text");
     let joinEmbed = new Discord.RichEmbed()
     .setTitle("Bot joined server!")
