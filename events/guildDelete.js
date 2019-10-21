@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 
 exports.run = async (bot, guild) => {
-  let guildCreateDelete = bot.channels.get('494789259996168192');
+  let guildCreateDelete = bot.channels.get('633401589931180072');
     let leaveEmbed = new Discord.RichEmbed()
     .setTitle("Bot left server!")
     .setThumbnail(guild.iconURL)
