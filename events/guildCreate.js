@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 
-exports.run = async (bot, guild) => {
+exports.run = async (client, guild) => {
   const invite = await guild.channels.find(c => c.type !== "category" && c.position === 0).createInvite({
         maxAge: 0
     });
