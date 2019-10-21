@@ -1,9 +1,9 @@
-{ "token"  : "token",
-  "prefix" : "d!",
+{ "token"  : "NjM1Nzc4NzMyNTM5Mzc5NzIy.Xa2Fpg.UDwNWW7Q8AaKEWIr5_MPG8iiRE8",
+  "prefix" : "!",
   "key"    : "424916247696900135",
   "red"    : "#b70000",
   "orange" : "#ff6a00",
   "green"  : "#00ff26",
   "purple" : "#d604cf",
-   "logbotchannel": "mods-log"
+   "logbotchannel": "mods-logs"
 }
