@@ -3,8 +3,8 @@ const Discord = require("discord.js");
 
 exports.run = async (bot) => {
   console.log(`${bot.user.tag} is online`);
-  bot.user.setActivity('d!help ||d!invitebot||') 
-let onlinelogs = bot.channels.get("494689992896151563");
+  bot.user.setActivity('!help ||!invitebot||') 
+let onlinelogs = bot.channels.get("633404230064930866");
 let online = new Discord.RichEmbed()
     .setTitle('Bot is Online')
     .setColor("RANDOM")
